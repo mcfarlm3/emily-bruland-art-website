@@ -1,0 +1,89 @@
+.carousel {
+  max-width: 925px;
+  max-height: 925px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#site-title {
+  padding: 20px 20px 20px 20px;
+  font-family: "Amatic SC", cursive;
+  font-size: 56pt;
+}
+
+.nav-item {
+  padding: 5px 5px 5px 5px;
+}
+
+#top-menu {
+  background-color: whitesmoke;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(50%);
+}
+
+.carousel-inner {
+  max-width: 600px;
+  max-height: 925px;
+  margin-bottom: 100px;
+}
+
+#about-artist-description {
+  padding: 20px 20px 20px 20px;
+}
+
+#emily-photo {
+  padding: 20px 20px 20px 20px;
+}
+
+#about-the-artist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+#scroll-box {
+  max-height: 550px;
+  max-width: 550px;
+  border: 3px solid black;
+  overflow: auto;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+#custom-portraits,
+#custom-landscapes {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+#contact-form {
+  padding: 40px 40px 40px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+#photo-disclaimer {
+  font-size: 9pt;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  text-align: end;
+}
